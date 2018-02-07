@@ -37,10 +37,19 @@ nav a:hover{
 
 /* ------------------------- End Header -------------------------*/
 
-/* ------------------------- Hero Image -------------------------*/
+/* ------------------------- Hero/Form Image -------------------------*/
 
 #hero-image {
   height: 400px;
+  background: url("../assets/hero-image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 70px;
+}
+
+#form-image {
+  height: 280px;
   background: url("../assets/hero-image.jpg");
   background-repeat: no-repeat;
   background-position: center;
