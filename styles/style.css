@@ -69,7 +69,7 @@ footer{
 }
 
 footer .container{
-  padding: 30px 60px 30px 60px;
+  padding: 30px 80px 30px 80px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
