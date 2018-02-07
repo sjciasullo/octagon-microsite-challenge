@@ -30,3 +30,13 @@ header{
   justify-content: center;
   align-items: center;
 }
+
+footer{
+  background-color: rgb(218, 218, 218);
+}
+
+footer .container{
+  padding: 30px 60px 30px 60px;
+  display: flex;
+  justify-content: space-between;
+}
