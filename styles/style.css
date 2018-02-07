@@ -1,3 +1,5 @@
+/* -------------------------- Header --------------------------*/
+
 header{
   height: 70px;
   border-bottom: solid 1px rgb(154, 154, 172);
@@ -13,6 +15,10 @@ header{
 .header-section{
   padding: 0px 20px 0px 20px;
 }
+
+/* ------------------------- End Header -------------------------*/
+
+/* ------------------------- Hero Image -------------------------*/
 
 #hero-image {
   height: 400px;
@@ -31,11 +37,24 @@ header{
   align-items: center;
 }
 
+/* ----------------------- End Hero Image -----------------------*/
+
+/* --------------------------- About  ---------------------------*/
+
+#about .container{
+  padding: 50px 90px 50px 90px;
+}
+
+/* ------------------------- End About  --------------------------*/
+
+
+/* -------------------------- Footer --------------------------*/
+
 footer{
   background-color: rgb(218, 218, 218);
 }
 
-.container{
+footer .container{
   padding: 30px 60px 30px 60px;
   display: flex;
   justify-content: space-between;
@@ -54,4 +73,6 @@ footer{
 .footer-link:hover{
   text-decoration: underline;
 }
+
+/* ------------------------- End Footer -------------------------*/
 
