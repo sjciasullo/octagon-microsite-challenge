@@ -66,10 +66,12 @@ h3{
 
 footer{
   background-color: rgb(218, 218, 218);
+  padding: 30px 80px 30px 80px;
 }
 
 footer .container{
-  padding: 30px 80px 30px 80px;
+  max-width: 850px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
