@@ -65,12 +65,13 @@ footer{
 footer .container{
   padding: 30px 60px 30px 60px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
 #footer-link-container{
-  text-align: right;
+  text-align: center;
 }
 
 .footer-link, .footer-link:visited{
@@ -84,3 +85,12 @@ footer .container{
 
 /* ------------------------- End Footer -------------------------*/
 
+@media (min-width: 650px) {
+  footer .container{
+    flex-direction: row;
+  }
+
+  #footer-link-container{
+    text-align: right;
+  }
+}
