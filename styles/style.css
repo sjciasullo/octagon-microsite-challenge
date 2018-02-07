@@ -1,5 +1,17 @@
+header{
+  height: 70px;
+  border-bottom: solid 1px rgb(154, 154, 172);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-section{
+  padding: 0px 20px 0px 20px;
+}
+
 #hero-image {
-  height: 300px;
+  height: 400px;
   background: url("../assets/hero-image.jpg");
   background-repeat: no-repeat;
   background-position: center;
