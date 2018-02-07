@@ -86,6 +86,25 @@ h3{
 
 /* ------------------------- End About  --------------------------*/
 
+/* --------------------------- Form  ---------------------------*/
+
+#form {
+  padding: 50px 90px 50px 90px;
+  display: flex;
+  justify-content: center;
+}
+
+#form .container{
+  max-width: 700px;
+}
+
+h3{
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+
+/* ------------------------- End Form  --------------------------*/
+
 /* -------------------------- Footer --------------------------*/
 
 footer{
