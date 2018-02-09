@@ -1,5 +1,4 @@
 function validateZip(zipcode) {
-  console.log(zipcode);
   const api = 'AIzaSyAX6KJo_fn4rvGYMbZ_ZBpm9vDiDIVZTHk';
   const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${zipcode}&${api}`;
   $.get(url).success(function(response) {
@@ -25,7 +24,7 @@ function validateZip(zipcode) {
         })
   
         //and reveal submit button
-        $submit = $("#submit");
+        const $submit = $("#submit");
         if ($submit.hasClass("hidden")){
           $submit.toggleClass("hidden");
         }
