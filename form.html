@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Landing</title>
+  <title>Landing - Sign Up</title>
   <link rel="stylesheet" type="text/css" href="styles/reset.css">
   <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
@@ -30,10 +30,20 @@
       <div class='container'>
         <h3 id="form-title">Sign-up Form</h3>
         <form>
-          <input type="text" name="first" placeholder="First name"><br />
-          <input type="text" name="last" placeholder="Last name"><br />
-          <input type="email" name="email" placeholder="Email"><br />
-          <input type="number" name="zip" placeholder="Zip Code"><br />
+          <input 
+            type="text" name="first" placeholder="First name"
+            pattern="[A-z]+"
+            title="First name should only contain letter characters"
+            required>
+          <br />
+          <input 
+            type="text" name="last" placeholder="Last name"
+            pattern="[A-z\-']+"
+            title="Last name should only contain letter characters, apostrophes, and hyphens"
+            required>
+          <br />
+          <input type="email" name="email" placeholder="Email" required><br />
+          <input type="number" name="zip" placeholder="Zip Code" required><br />
           <select name="state">
             <option value="AL">Alabama (AL)</option>
             <option value="AK">Alaska (AK)</option>
