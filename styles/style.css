@@ -98,9 +98,10 @@ h3{
   max-width: 700px;
 }
 
-h3{
+#form-title{
   font-size: 30px;
   padding-bottom: 15px;
+  text-align: center;
 }
 
 form{
@@ -112,6 +113,19 @@ form{
 #form-but-cont{
   display: flex;
   justify-content: space-around;
+}
+
+input:not(.form-btn){
+  margin: 15px 0px 15px 0px;
+  font-size: 18px;
+  padding: 3px;
+  border: none;
+  border-bottom: 2px solid #CCCCCC;
+}
+
+input:focus{
+  outline: none;
+  border-bottom: 2px solid #FF0000;
 }
 
 /* ------------------------- End Form  --------------------------*/
