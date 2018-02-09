@@ -2,8 +2,8 @@ function validateZip(zipcode) {
   const api = 'AIzaSyAX6KJo_fn4rvGYMbZ_ZBpm9vDiDIVZTHk';
   const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${zipcode}&${api}`;
   $.get(url).success(function(response) {
-    // display the address specified by zipcode
     if(response.status === 'OK') {
+      // display the address specified by zipcode
       const address = response.results[0].formatted_address;
       let $address = $("#address-check");
       if($address.length !== 0){
@@ -12,7 +12,6 @@ function validateZip(zipcode) {
         const $zipAddress = $(`<p id='address-check'>${address}</p>`)
         $("#zip").after($zipAddress);
       }
-      
   
       // if the address is in USA, select the state by the result and show submit button
       if(address.includes("USA")){
