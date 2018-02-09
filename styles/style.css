@@ -129,6 +129,13 @@ input:focus{
   border-bottom: 2px solid #FF0000;
 }
 
+#address-check{
+  text-align: right;
+  color: #888888;
+  margin-top: -37px;
+  margin-bottom: 37px;
+}
+
 .form-btn{
   border: 1px solid #CCCCCC;
   border-radius: 4px;
