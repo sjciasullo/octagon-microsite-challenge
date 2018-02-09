@@ -137,7 +137,7 @@ input:focus{
   width: 65px;
 }
 
-.form-btn:hover{
+.form-btn:hover, .form-btn:focus{
   border: 1px solid rgb(248, 91, 91);
   transition: .5s;
   box-shadow: -2px 2px 8px -1px rgba(214,214,214,1);
