@@ -7,7 +7,7 @@ function validateZip(zipcode) {
     $zipAddress = $(`<p id='address-check'>${address}</p>`)
     $("#zip").after($zipAddress);
 
-    // if the address is in USA, select the state by the result
+    // if the address is in USA, select the state by the result and show submit button
     if(address.includes("USA")){
       response.results[0].address_components.forEach( function(comp) {
         if(comp.types[0] == "administrative_area_level_1") {
@@ -15,6 +15,9 @@ function validateZip(zipcode) {
           $("#state").val(state)
         }
       })
+
+      //and reveal submit button
+      $("#submit").toggleClass("hidden");
     }
     
   })
