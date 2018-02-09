@@ -103,6 +103,17 @@ h3{
   padding-bottom: 15px;
 }
 
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#form-but-cont{
+  display: flex;
+  justify-content: space-around;
+}
+
 /* ------------------------- End Form  --------------------------*/
 
 /* -------------------------- Footer --------------------------*/
